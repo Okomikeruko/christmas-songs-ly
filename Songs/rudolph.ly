@@ -70,7 +70,11 @@ rudolphLyrics = \lyricmode {
 	Then how the rein -- deer loved him
 	As they shout -- ed out with glee,
 	"\"Ru" -- dolph the Red -- Nosed Rein -- deer,
-	You'll go down in his -- tor -- y!
+	You'll go down in his -- to -- "ry!\""
+}
+
+rudolphHeader = \header{
+    title = "Rudolph the Red-Nosed Reindeer"
 }
 
 rudolphScore = \score{
