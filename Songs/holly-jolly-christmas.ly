@@ -66,7 +66,7 @@ hjcLyrics = \lyricmode{
 }
 
 \header{
-    title = "Holly Jolly Christams"
+    title = "Holly Jolly Christmas"
     tagline = ""
     arranger = "Words and music by Johnny Marks"
 }
