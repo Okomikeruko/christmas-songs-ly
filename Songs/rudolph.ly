@@ -54,12 +54,12 @@ rudolphLyrics = \lyricmode {
         }
 		\new Lyrics = "rudolphSecondVerse"
 	        \with { alignBelowContext = "rudolphLyrics" } {
-			\set associatedVoice = "rudolphMelody"
-			\set stanza = "2. "
-			All of the oth -- er rein -- deer
-			used to laugh and call him names
-			They nev -- er let poor Ru -- dolph
-		}
+                \set associatedVoice = "rudolphMelody"
+                \set stanza = "2. "
+                All of the oth -- er rein -- deer
+                used to laugh and call him names
+                They nev -- er let poor Ru -- dolph
+            }
     >>
 	you would ev -- en say it glows.
 	join in an -- y rein -- deer games.
@@ -73,11 +73,13 @@ rudolphLyrics = \lyricmode {
 	You'll go down in his -- to -- "ry!\""
 }
 
-rudolphHeader = \header{
+\header{
     title = "Rudolph the Red-Nosed Reindeer"
+    tagline = ""
+    arranger = "Words and music by Johnny Marks"
 }
 
-rudolphScore = \score{
+\score{
 	<<
 		\new Staff {
 			\new Voice = "rudolphMelody" {
@@ -92,5 +94,4 @@ rudolphScore = \score{
 	>>
 	
 	\layout{}
-	\midi{}
 }
