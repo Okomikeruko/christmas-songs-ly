@@ -6,4 +6,5 @@
     \include "Songs/deck-the-halls.ly"
     \include "Songs/jingle-bells.ly"
     \include "Songs/twelve-days.ly"
+    \include "Songs/what-child-is-this.ly"
 }
