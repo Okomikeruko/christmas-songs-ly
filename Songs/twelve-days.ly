@@ -1,5 +1,5 @@
 \version "2.18.2"
-voltaAsNes = \markup { \text \italic { repeat as necessary } }
+voltaAsNes = \markup { \text \italic { Repeat as necessary } }
 
 twelveMelody = \relative c' {
 	\numericTimeSignature
