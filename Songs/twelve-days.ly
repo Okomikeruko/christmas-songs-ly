@@ -5,24 +5,24 @@ twelveMelody = \relative c' {
 	\numericTimeSignature
 	\time 4/4
 	\key f \major
-	\partial 4 c8_. c_. | c4 f8 f f4 e8 f | g a bes g a4. bes8 | \break
-	c4 d8( bes) a f g4 | f2~ f8 r c c | c f f f f4 e8 f | \break
-	g a bes g a2 | c4 g8 a bes4 a8 bes | c4 d8( bes) a f g4 | \break
-	f2~ f8 r c c | c4 f8 f f4 e8 f | g a bes g a2 | \time 3/4 c4 g8( a) bes4 | \break
-	\time 4/4 c4 g8 a bes4 a8 bes | c4 d8( bes) a f g4 | f2~ f8 r c c | \break
+	\partial 4 c8_. c_. | c4 f8 f f4 e8 f | g a bes g a4. bes8 |
+	c4 d8( bes) a f g4 | f2~ f8 r c c | c f f f f4 e8 f |
+	g a bes g a2 | c4 g8 a bes4 a8 bes | c4 d8( bes) a f g4 | 
+	f2~ f8 r c c | c4 f8 f f4 e8 f | g a bes g a2 | \time 3/4 c4 g8( a) bes4 | 
+	\time 4/4 c4 g8 a bes4 a8 bes | c4 d8( bes) a f g4 | f2~ f8 r c c | 
 	c4 f8 f f4 e8 f | g a bes g a2 | \time 3/4 c4 g8 a bes4 |
-	c4 g8( a) bes4 | \time 4/4 c4 g8 a bes4 a8 bes | c4 d8( bes) a f g4 | f2~ f8 r c c | \break
-	c4 f8 f f4 e8 f | g a bes g a2 | \time 2/2 c2 d8 b4. | c1 | \time 3/4 \break
-	c8( bes) a_. g_. f4_. | bes^. d,_. f_. | \time 4/4 g8( f) e_. d_. c4_. a'8 bes | \break
+	c4 g8( a) bes4 | \time 4/4 c4 g8 a bes4 a8 bes | c4 d8( bes) a f g4 | f2~ f8 r c c | 
+	c4 f8 f f4 e8 f | g a bes g a2 | \time 2/2 c2 d8 b4. | c1 | \time 3/4 
+	c8( bes) a_. g_. f4_. | bes^. d,_. f_. | \time 4/4 g8( f) e_. d_. c4_. a'8 bes | 
 	c4 d8( bes) a f g4 | f2~ f8 r c c | 
 	\repeat volta 7 { 
-		c4 f8 f f4 e8 f | \break
+		c4 f8 f f4 e8 f | 
 		g8 a bes g a2   |
 		\set Score.repeatCommands = #(list(list 'volta voltaAsNes) 'start-repeat) 
 		\time 3/4 c4 g8 a bes g | 
 		\set Score.repeatCommands = #'((volta #f) end-repeat)
-		\time 2/2 c2 d8 b4. | \break 
-    c1 | \time 3/4 c8( bes) a_. g_. f4_. | bes^. d,_. f_. | \time 4/4 g8( f) e_. d_. c4_. a'8 bes | \break
+		\time 2/2 c2 d8 b4. |  
+    c1 | \time 3/4 c8( bes) a_. g_. f4_. | bes^. d,_. f_. | \time 4/4 g8( f) e_. d_. c4_. a'8 bes | 
 		c4 d8( bes) a f g4 |
 	}
 	\set Score.repeatCommands = #'((volta "7 - 11"))
@@ -88,10 +88,7 @@ twelveLyrics = \lyricmode {
 	Two __ tur -- tle doves, and
 	a par -- tridge __ in a pear tree. __
 	<< 
-		{ On the }
-		\new Lyrics = "twelveSeventhA" \with { alignBelowContext = "twelveLyrics" }
-			{ \set associatedVoice = "twelveMelody" 
-			  \set stanza = "7. " On the }
+		{ \set stanza = "7." On the }
 		\new Lyrics = "twelveEighthA" \with { alignBelowContext = "twelveLyrics" }
 			{ \set associatedVoice = "twelveMelody" 
 			  \set stanza = "8. " On the }
