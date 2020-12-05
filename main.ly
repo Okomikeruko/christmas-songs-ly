@@ -1,11 +1,19 @@
+\version "2.18.2"
+
+#(set-default-paper-size "letter")
+
+\paper {
+	indent = 0 
+}
+
 \book {
-	\include "Songs/rudolph.ly"
-	\include "Songs/holly-jolly-christmas.ly"
-	\include "Songs/frosty.ly"
-	\include "Songs/silent-night.ly"
-	\include "Songs/deck-the-halls.ly"
-	\include "Songs/jingle-bells.ly"
-	\include "Songs/twelve-days.ly"
-	\include "Songs/what-child-is-this.ly"
-	\include "Songs/mean-mr-grinch.ly"
+	\bookpart {	\include "Songs/rudolph.ly"	}
+  \bookpart { \include "Songs/holly-jolly-christmas.ly" }
+	\bookpart { \include "Songs/frosty.ly" }
+	\bookpart {	\include "Songs/silent-night.ly" }
+	\bookpart {	\include "Songs/deck-the-halls.ly" }
+	\bookpart {	\include "Songs/jingle-bells.ly" }
+	\bookpart {	\include "Songs/twelve-days.ly" }
+	\bookpart {	\include "Songs/what-child-is-this.ly" }
+	\bookpart {	\include "Songs/mean-mr-grinch.ly" }
 }
