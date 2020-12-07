@@ -53,7 +53,7 @@
 					On, on they send, On with -- out end, 
 					Their joy -- ful tone To ev -- 'ry home.
 					Hark! how the bells, Sweet sil -- ver bells,
-					All sem to say, "\"Throw" cares a -- "way.\"" 
+					All seem to say, "\"Throw" cares a -- "way.\"" 
 					On, on they send, On with -- out end, 
 					Their joy -- ful tone To ev -- 'ry home.
 					Ding, dong, ding, dong. __ 
