@@ -18,4 +18,5 @@
 	\bookpart {	\include "Songs/mean-mr-grinch.ly" }
 	\bookpart { \include "Songs/carol-of-the-bells.ly" }
 	\bookpart { \include "Songs/silver-bells.ly" }
+	\bookpart { \include "Songs/god-rest-ye.ly" }
 }
