@@ -1,10 +1,4 @@
-\version "2.18.2"
-
-#(set-default-paper-size "letter")
-
-\paper {
-	indent = 0 
-}
+\include "global-settings.ly"
 
 \book {
 	\bookpart {	\include "Songs/rudolph.ly"	}
@@ -19,4 +13,7 @@
 	\bookpart { \include "Songs/carol-of-the-bells.ly" }
 	\bookpart { \include "Songs/silver-bells.ly" }
 	\bookpart { \include "Songs/god-rest-ye.ly" }
+	\bookpart { \include "Songs/o-come-all-ye.ly" }
+	\bookpart { \include "Songs/rocking-around.ly" }
+	\bookpart { \include "Songs/need-a-little-xmas.ly" }
 }
