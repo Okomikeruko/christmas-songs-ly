@@ -20,5 +20,6 @@
 	\bookpart { \include "Songs/o-christmas-tree.ly" }
 	\bookpart { \include "Songs/sleigh-ride.ly" }
 	\bookpart { \include "Songs/little-drummer-boy.ly" }
-	
+	\bookpart { \include "Songs/joy-to-the-world.ly" }
+
 }
