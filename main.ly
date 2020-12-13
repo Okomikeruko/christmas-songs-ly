@@ -19,5 +19,6 @@
 	\bookpart { \include "Songs/over-the-river.ly" }
 	\bookpart { \include "Songs/o-christmas-tree.ly" }
 	\bookpart { \include "Songs/sleigh-ride.ly" }
+	\bookpart { \include "Songs/little-drummer-boy.ly" }
 	
 }
