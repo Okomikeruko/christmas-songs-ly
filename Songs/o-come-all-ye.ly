@@ -24,7 +24,7 @@
                     \set stanza = "1. "
                     Oh, come, all ye faith -- ful,
                     Joy -- ful and tri -- um -- phant! Oh,
-                    come ye, oh come yee to Beth -- le -- hem.
+                    come ye, oh come ye to Beth -- le -- hem.
                     Come and be -- hold him,
                     Born the King of an -- gels; 
                 }
