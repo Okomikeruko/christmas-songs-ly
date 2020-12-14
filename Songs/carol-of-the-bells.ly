@@ -12,7 +12,6 @@
 				\relative g' {
 					\time 3/4
 					\key g \major
-					\tempo 4 = 160
 					g4 fis 8 g e4 | g4 fis 8 g e4 | g4 fis 8 g e4 | g4 fis 8 g e4 \break 
 					\repeat volta 2 {
 						g4 fis 8 g e4 | g4 fis 8 g e4 | g4 fis 8 g e4 | g4 fis 8 g e4 |
