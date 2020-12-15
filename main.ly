@@ -22,5 +22,5 @@
 	\bookpart { \include "Songs/little-drummer-boy.ly" }
 	\bookpart { \include "Songs/joy-to-the-world.ly" }
 	\bookpart { \include "Songs/hallelujah.ly" }
-
+	\bookpart { \include "Songs/mary-did-you-know.ly" }
 }
