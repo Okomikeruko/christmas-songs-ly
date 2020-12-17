@@ -1,5 +1,32 @@
 \version "2.19.48"
 
+% 1.	G4	 7	1	darkred
+% 2.	G#4	 8	1	darkred
+% 3.	A4	 9	1	darkred
+% 4.	A#4	10	1	darkred
+% 5.	B4	11	1	darkred
+% 6.	C5	12	2	red
+% 7.	C#5	13	2	red
+% 8.	D5	14	2	red
+% 9.	D#5	15	2	red
+% 10.	E5	16	3	(x11-color ‘DarkOrange)
+% 11.	F5	17	3	(x11-color ‘DarkOrange)
+% 12.	F#5	18	3	(x11-color ‘DarkOrange)
+% 13.	G5	19	3	(x11-color ‘DarkOrange)
+% 14.	G#5	20	4	darkgreen
+% 15.	A5	21	4	darkgreen
+% 16.	A#5	22	4	darkgreen
+% 17.	B5	23	4	darkgreen
+% 18.	C6	24	5	blue
+% 19.	C#6	25	5	blue
+% 20.	D6	26	5	blue
+% 21.	D#6	27	5	blue
+% 22.	E6	28	6	darkmagenta
+% 23.	F6	29	6	darkmagenta
+% 24.	F#6	30	6	darkmagenta
+% 25.	G6	31	6	darkmagenta
+
+
 #(define (handbell-colors grob)
   (let* ((pch (ly:event-property (event-cause grob) 'pitch))
         (semitones (ly:pitch-semitones pch)))
