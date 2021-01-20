@@ -28,4 +28,5 @@
 	\bookpart { \include "Songs/first-noel.ly"}
 	\bookpart { \include "Songs/whats-this.ly" }
 	\bookpart { \include "Songs/three-ships.ly" }
+	\bookpart { \include "Songs/good-king-wenceslas.ly" }
 }
